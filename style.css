@@ -1,0 +1,43 @@
+body { 
+  text-align: center;
+  background: #f4fff4;
+  transition: background 0.6s, color 0.5s;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 { 
+    margin-bottom: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #d0ffd0;
+  border: 2px solid #298f00;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 255, 106, 0.1);
+  transition: background 0.5s, box-shadow 0.5s;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.success { color: rgb(0, 58, 219); }
+.error { color: rgb(146, 0, 0); }
+
+.dark-theme {
+  background: #030303;
+  color: rgb(170, 170, 170);
+}
+
+.dark-theme .box {
+  background: #838383;
+  border-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
