@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS DOM Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to JS DOM Project</h1>
+
+  <div class="box" style="font-family: 'Times New Roman', Times, serif;"> 
+    <button id="themeBtn">Change Theme</button>
+
+    <form id="regForm">
+      <p>Username: <input type="text" id="username" /></p>
+      <p>Email: <input type="email" id="email" /></p>
+      <p>Password: <input type="password" id="password" /></p>
+      <button type="submit">Submit</button>
+      <button type="button" id="resetBtn">Reset</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <div id="outer" class="box">
+    Outer div
+    <button id="inner">Click Me</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
